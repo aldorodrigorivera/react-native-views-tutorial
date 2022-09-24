@@ -4,11 +4,12 @@ disponibles en REACT NATIVE con EXPO.
 
 de los pintos que se quieren revisar son los siguientes:
  
-- Icono de app
-- Splash
+- Icono de app 👍🏻
+- Splash 👍🏻
 - Sesiones de usuario
 - Navegacion
   - Pasar parametros entre vistas
+  - Moverse entre vistas 👍🏻
 - Crear bottom bars
 - Crear menu laterales
 - Listas
@@ -18,14 +19,14 @@ de los pintos que se quieren revisar son los siguientes:
   - Swipe
     - Laterales
     - Actualizacion
-- Flexbox
+- Flexbox 👍🏻
 - Gestos
 - Views
-  - SafeArea
+  - SafeArea 👍🏻
   - ScrollView
-  - TouchableOpacity
+  - TouchableOpacity 👍🏻
 - Alertas
-  - Nativas
+  - Nativas 👍🏻
   - SnackBars
   - Toast
 - Modales
