@@ -1,15 +1,19 @@
 import * as React from 'react';
-import { Text, View } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
+import {ScrollView, Text, View} from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { AntDesign } from '@expo/vector-icons';
 
 function ProfileScreen() {
     return (
-        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+        <ScrollView contentInsetAdjustmentBehavior="automatic">
             <Text>PROFILE!</Text>
-        </View>
+            <Text>PROFILE!</Text>
+            <Text>PROFILE!</Text>
+            <Text>PROFILE!</Text>
+            <Text>PROFILE!</Text>
+            <Text>PROFILE!</Text>
+        </ScrollView>
     );
 }
 
@@ -25,16 +29,17 @@ const Tab = createBottomTabNavigator();
 
 export const SettingsScreen = () => {
     return (
-        <NavigationContainer independent={true} >
             <Tab.Navigator
                 screenOptions={{
                     tabBarActiveTintColor: '#f5b901',
+                    headerLargeTitle: true,
                 }}>
                 <Tab.Screen
                     name="Profile"
                     component={ProfileScreen}
                     options={{
-                    tabBarIcon: ({ color, size }) => (
+                        headerLargeTitle: true,
+                        tabBarIcon: ({ color, size }) => (
                         <AntDesign name="user" size={size} color={color} />
                     ),
                 }}/>
@@ -42,11 +47,12 @@ export const SettingsScreen = () => {
                     name="Options"
                     component={OptionsScreen}
                     options={{
-                    tabBarIcon: ({ color, size }) => (
+                        headerLargeTitle: true,
+
+                        tabBarIcon: ({ color, size }) => (
                         <Ionicons name="settings" size={size} color={color} />
                     ),
                 }}/>
             </Tab.Navigator>
-        </NavigationContainer>
     );
 }

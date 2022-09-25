@@ -27,8 +27,6 @@ de los pintos que se quieren revisar son los siguientes:
   - TouchableOpacity 👍🏻
 - Alertas
   - Nativas 👍🏻
-  - SnackBars
-  - Toast
 - Modales
   - Custom
   - Nativos
