@@ -6,7 +6,7 @@ export const HomeScreen = ({ navigation }) => {
 
     const alert = (title) => {
         // Alert.alert(title);
-        navigation.navigate('Details')
+        navigation.navigate('Details', {userId:"ASD-123NH"})
     }
 
     return (

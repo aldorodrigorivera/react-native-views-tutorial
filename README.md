@@ -8,9 +8,9 @@ de los pintos que se quieren revisar son los siguientes:
 - Splash 👍🏻
 - Sesiones de usuario
 - Navegacion
-  - Pasar parametros entre vistas
+  - Pasar parametros entre vistas 👍🏻
   - Moverse entre vistas 👍🏻
-- Crear bottom bars
+- Crear bottom bars 👍🏻
 - Crear menu laterales
 - Listas
   - Grid
