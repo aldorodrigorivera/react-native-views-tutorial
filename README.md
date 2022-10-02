@@ -2,8 +2,9 @@
 Este es un proyecto recolectivo de varias funcionalidades
 disponibles en REACT NATIVE con EXPO.
 
-de los pintos que se quieren revisar son los siguientes:
- 
+Para crear una app nueva debes correr el siguiente comando `npx create-expo-app <MY_APP_NAME>`
+
+De los pintos que se quieren revisar son los siguientes: 
 - Icono de app 👍🏻
 - Splash 👍🏻
 - Sesiones de usuario
